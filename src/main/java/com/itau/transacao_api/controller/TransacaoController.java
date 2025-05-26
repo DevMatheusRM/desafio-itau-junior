@@ -37,6 +37,18 @@ public class TransacaoController {
     @DeleteMapping
     public ResponseEntity<Void> deletarTodas() {
         service.limpar();
-        return ResponseEntity.noContent().build();
+        return ResponseEntity.ok().build();
     }
+
+
+    @ExceptionHandler(IllegalArgumentException.class)
+    public ResponseEntity<Void> handleIllegalArgumentException() {
+        return ResponseEntity.unprocessableEntity().build(); // 422
+    }
+
+    @ExceptionHandler(Exception.class)
+    public ResponseEntity<Void> handleGenericException() {
+        return ResponseEntity.badRequest().build(); // 400
+    }
+
 }

@@ -6,6 +6,7 @@ import com.itau.transacao_api.model.Transacao;
 import com.itau.transacao_api.repository.TransacaoRepository;
 import org.springframework.stereotype.Service;
 
+import java.time.OffsetDateTime;
 import java.util.List;
 
 @Service
@@ -18,6 +19,12 @@ public class TransacaoService {
     }
 
     public void criar(TransacaoRequestDto dto) {
+        OffsetDateTime agora = OffsetDateTime.now();
+
+        if (dto.getDataHora().isAfter(agora) || dto.getValor() < 0) {
+            throw new IllegalArgumentException("Transação inválida.");
+        }
+
         Transacao transacao = new Transacao(dto.getValor(), dto.getDataHora());
         repository.salvar(transacao);
     }
