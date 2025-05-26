@@ -1,5 +1,7 @@
 package com.itau.transacao_api.service;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import com.itau.transacao_api.dto.EstatisticaResponseDto;
 import com.itau.transacao_api.model.Transacao;
 import com.itau.transacao_api.repository.TransacaoRepository;

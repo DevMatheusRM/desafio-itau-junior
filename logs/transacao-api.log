@@ -1,0 +1,21 @@
+2025-05-25T23:53:03.117-03:00  INFO 12124 --- [transacao-api] [restartedMain] c.i.t.TransacaoApiApplication            : Starting TransacaoApiApplication using Java 21.0.7 with PID 12124 (C:\Users\matheus\Documents\Backend Projects\transacao-api\target\classes started by matheus in C:\Users\matheus\Documents\Backend Projects\transacao-api)
+2025-05-25T23:53:03.120-03:00 DEBUG 12124 --- [transacao-api] [restartedMain] c.i.t.TransacaoApiApplication            : Running with Spring Boot v3.5.0, Spring v6.2.7
+2025-05-25T23:53:03.122-03:00  INFO 12124 --- [transacao-api] [restartedMain] c.i.t.TransacaoApiApplication            : No active profile set, falling back to 1 default profile: "default"
+2025-05-25T23:53:03.324-03:00  INFO 12124 --- [transacao-api] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-05-25T23:53:03.324-03:00  INFO 12124 --- [transacao-api] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-05-25T23:53:06.687-03:00  INFO 12124 --- [transacao-api] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-05-25T23:53:06.715-03:00  INFO 12124 --- [transacao-api] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-25T23:53:06.715-03:00  INFO 12124 --- [transacao-api] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-05-25T23:53:06.814-03:00  INFO 12124 --- [transacao-api] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-25T23:53:06.815-03:00  INFO 12124 --- [transacao-api] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3488 ms
+2025-05-25T23:53:07.463-03:00  INFO 12124 --- [transacao-api] [restartedMain] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-05-25T23:53:08.299-03:00  INFO 12124 --- [transacao-api] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-05-25T23:53:08.316-03:00  INFO 12124 --- [transacao-api] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoints beneath base path '/actuator'
+2025-05-25T23:53:08.540-03:00  INFO 12124 --- [transacao-api] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-05-25T23:53:08.568-03:00  INFO 12124 --- [transacao-api] [restartedMain] c.i.t.TransacaoApiApplication            : Started TransacaoApiApplication in 6.518 seconds (process running for 7.698)
+2025-05-25T23:53:13.866-03:00  INFO 12124 --- [transacao-api] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-25T23:53:13.866-03:00  INFO 12124 --- [transacao-api] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-25T23:53:13.868-03:00  INFO 12124 --- [transacao-api] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-05-25T23:53:15.013-03:00  INFO 12124 --- [transacao-api] [http-nio-8080-exec-9] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 491 ms
+2025-05-25T23:54:07.285-03:00  INFO 12124 --- [transacao-api] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-25T23:54:07.301-03:00  INFO 12124 --- [transacao-api] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
