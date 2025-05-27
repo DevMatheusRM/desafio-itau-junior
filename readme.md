@@ -1,3 +1,7 @@
+#### 🎥 Minha explicação para este desafio:  https://youtu.be/y5Z3ixODVlU
+
+---
+
 # 🚀 Desafio Backend - Desenvolvedor Júnior Itaú Unibanco
 
 Este projeto foi desenvolvido como resposta ao **Desafio de Programação do Itaú Unibanco** para a vaga de **Desenvolvedor Júnior Backend**. A proposta consiste em criar uma API RESTful capaz de registrar transações financeiras e retornar estatísticas baseadas nas transações realizadas nos últimos 60 segundos.
